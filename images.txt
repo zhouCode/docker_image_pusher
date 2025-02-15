@@ -27,5 +27,14 @@ gcr.io/prysmaticlabs/prysm/validator:latest
 consensys/teku:latest
 ghcr.io/serenita-org/vero:master
 #Remote Signer默认镜像
+consensys/web3signer:latest
+#mev镜像
+ethpandaops/mev-boost-relay:main
+ethpandaops/flashbots-builder:main
+sigp/lighthouse:latest
+ethpandaops/mev-boost:develop
+flashbots/mev-flood
+ethpandaops/xatu-sentry
+ethpandaops/ethereum-genesis-generator:3.7.0
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
