@@ -2,7 +2,30 @@ nginx
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
-github.com/kurtosis-tech/basic-service-package
-github.com/ethpandaops/ethereum-package
+kurtosistech/service-a
+gitpod/workspace-full
+#EL客户端默认镜像
+ethereum/client-go:latest
+ethpandaops/erigon:main
+nethermind/nethermind:latest
+hyperledger/besu:develop
+ghcr.io/paradigmxyz/reth
+ethpandaops/ethereumjs:master
+ethpandaops/nimbus-eth1:master
+#CL客户端默认镜像
+sigp/lighthouse:latest
+consensys/teku:latest
+statusim/nimbus-eth2:multiarch-latest
+gcr.io/prysmaticlabs/prysm/beacon-chain:latest
+chainsafe/lodestar:next
+sifrai/grandine:stable
+#VC客户端默认镜像
+sigp/lighthouse:latest
+chainsafe/lodestar:latest
+statusim/nimbus-validator-client:multiarch-latest
+gcr.io/prysmaticlabs/prysm/validator:latest
+consensys/teku:latest
+ghcr.io/serenita-org/vero:master
+#Remote Signer默认镜像
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
